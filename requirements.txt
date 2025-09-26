@@ -1,0 +1,7 @@
+# PortWatch Pro runtime dependencies
+# GUI
+PySide6>=6.6,<7.0
+# Process & network inspection
+psutil>=5.9,<6.0
+# Docker SDK (optional at runtime; CLI fallback is used if SDK is absent)
+docker>=7.0,<8.0
